@@ -1,0 +1,273 @@
+/* LANDING PAGE */
+body{
+	margin: 0;
+}
+
+button{
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 300px){
+	.outer > fieldset{
+		font-size: 0.3rem;
+		padding: 0;
+		margin: 0;
+
+	}
+}
+
+/* LANDING PAGE */
+
+/* NAVIGATION */
+
+.btn {
+	margin: 5px;
+}
+
+
+/* FRONT */
+
+.front{
+	display: flex;
+	margin: 0px;
+	justify-content: center;
+	height: 45vh;
+	background-color: white;
+	margin: 5%;
+
+}
+
+
+/* MENU */
+
+/*.menuouter{
+	display: flex;
+	margin: 3%;
+	box-shadow: 4px 4px 15px 15px #888888;
+	height: 45vh;
+}*/
+
+.menuinner{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 3%;
+	margin: 3%; 
+	
+
+}
+
+
+.item{
+	display: block;
+	box-shadow: 4px 4px 15px 15px #888888;
+	border-radius: 20px;
+	padding: 15px;
+	height: 15vh;
+
+}
+
+.item > p{
+	margin: 0;
+	padding: 0;
+	margin-left: 5%;
+	margin-top: -25px;
+}
+
+
+
+
+
+.type{
+	height: 25px;
+	width: 25px; 
+
+}
+
+
+
+/* REGISTER AND LOGIN */
+
+/* REGISTER OPTION page*/
+
+.option_box{
+	font-family:sans-serif;
+	font-size: 2rem;
+	display: flex;
+	justify-content: center;
+	height: 100%;
+}
+
+.register_box{
+	justify-content: center;
+	border-color: blue;
+	border-radius: 20px;
+}
+
+.option_box > fieldset{
+	border-color: #1ab2ff;
+	margin: 20%;
+	padding: 30px;
+	border-width: 7px;
+	border-radius: 20px;
+	box-shadow: 4px 4px 15px 15px #888888;
+
+}
+
+.register_box > button{
+	padding: 10px;
+	margin: 2%;
+	font-size: 1.2rem;
+	border-radius: 5px;
+	border-color: #1ab2ff;
+	background-color: #1ab2ff;
+	font-color: green;
+	box-shadow: white;
+	color: white;
+}
+
+
+/*REGISTER CUSTOMER && EMPLOYEE page*/
+
+.outer{
+	display: flex;
+	justify-content: center;
+	font-family: sans-serif;
+	font-size: 1.5rem;
+}
+
+.inner{
+	margin: 4%;
+}
+
+
+.outer > fieldset{
+	border-color: #1ab2ff;
+	width: 50%;
+	box-shadow: black;
+	border-width: 7px;
+	margin: 4%;	
+	padding: 0;
+	border-radius: 20px;
+	box-shadow: 4px 4px 15px 15px #888888;
+}
+
+.headingregister{
+	display: flex;
+	justify-content: center;
+	font-size: 3rem;
+	font-style: bold;
+	background-color: #1ab2ff; 
+	margin: 0;
+	padding: 0;
+	color: white;
+	height: 70px;
+	border-top-left-radius:  : 20px;
+	border-top-right-radius:  : 20px;
+
+}
+
+.formregister > button{
+	padding: 10px;
+	margin: 2%;
+	font-size: 1.2rem;
+	border-radius: 5px;
+	border-color: #1ab2ff;
+	background-color: #1ab2ff;
+	font-color: green;
+	box-shadow: white;
+	color: white;
+}
+
+
+
+
+
+
+/* LOGIN CUSTOMER && EMPLOYEE */
+
+.loginouter{
+	display: flex;
+	justify-content: center;
+	font-family: sans-serif;
+	font-size: 1.5rem;
+}
+
+.loginouter > fieldset{
+	border-color: #1ab2ff;
+	width: 50%;
+	box-shadow: black;
+	border-width: 7px;
+	margin: 15%;	
+	padding: 0;
+	border-radius: 20px;
+	box-shadow: b4px 4px 15px 15px #888888;
+}
+
+.loginbox{
+	margin: 10%;
+
+	justify-content: all;
+
+}
+
+
+.headinglogin{
+	display: flex;
+	justify-content: center;
+	font-size: 3rem;
+	font-style: bold;
+	background-color: #1ab2ff; 
+	margin: 0;
+	padding: 0;
+	color: white;
+	height: 70px;
+	border-top-left-radius:  : 20px;
+	border-top-right-radius:  : 20px;
+}
+
+.loginform > button{
+
+	padding: 10px;
+	margin: 2%;
+	font-size: 1.2rem;
+	border-radius: 5px;
+	border-color: #1ab2ff;
+	background-color: #1ab2ff;
+	font-color: green;
+	box-shadow: white;
+	color: white;	
+}
+
+.loginform > input{
+	width: 100%;
+	font-size: 1.5rem;
+}
+
+
+/* food and insert delete */
+
+.adddelete{
+	display: flex;
+	height: 40vh;
+	margin: 0;
+	padding: 0;
+	justify-content: center;
+	background-color: white;
+}
+
+.adddelete > form{
+	justify-content: center;
+	margin: 4%;
+}
+
+.insertbutton{
+	padding: 10px;
+	margin: 2%;
+	font-size: 1.2rem;
+	border-radius: 5px;
+	border-color: #1ab2ff;
+	background-color: #1ab2ff;
+	font-color: green;
+	box-shadow: white;
+	color: white;	
+}
